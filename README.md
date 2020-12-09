@@ -4,7 +4,7 @@
 - Users can create new posts
 - Users can create new comments on posts
 
-# Missing: 
+# TODO: 
 
 - UI
 - Nested comments
