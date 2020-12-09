@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-class Post < ApplicationRecord
+class Comment < ApplicationRecord
+  belongs_to :post
   belongs_to :user
-  has_many :comments
 
-  validates :title, presence: true, uniqueness: true
   validates :body, presence: true
+  validates :post_id, presence: true
   validates :user_id, presence: true
 end
