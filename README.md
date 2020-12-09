@@ -9,3 +9,8 @@
 - UI
 - Nested comments
 - Display name changing
+- Editing posts and comments
+- Voting system
+- Subreddits/grouping of posts
+- User avatars
+- Uploading pictures as posts
